@@ -1,0 +1,7 @@
+l=eval(input())
+for ele in l:
+    if ele%2==0:
+        print('yes there is even num')
+        break
+else:
+    print('no there is no even num')
